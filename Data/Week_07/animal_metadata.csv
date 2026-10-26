@@ -1,0 +1,13 @@
+animal_id,treatment,treatment_binary,sampling_rate_hz
+A01,Control,0,200
+A02,Control,0,200
+A03,Control,0,200
+A04,Control,0,200
+A05,Control,0,200
+A06,Control,0,200
+A07,Stimulated,1,200
+A08,Stimulated,1,200
+A09,Stimulated,1,200
+A10,Stimulated,1,200
+A11,Stimulated,1,200
+A12,Stimulated,1,200

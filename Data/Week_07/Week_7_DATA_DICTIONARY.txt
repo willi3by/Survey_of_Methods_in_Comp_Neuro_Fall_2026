@@ -1,0 +1,24 @@
+# Week 7 data dictionary
+
+The dataset is synthetic and designed for teaching neural time-series analysis.
+
+## lfp_trials.csv
+
+Each row is one time sample from one trial.
+
+- `animal_id`: animal identifier
+- `trial_id`: trial number within animal
+- `time_s`: time in seconds from the start of the trial
+- `hippocampus_uV`: simulated hippocampal LFP-like voltage in microvolts
+- `pfc_uV`: simulated prefrontal-cortex LFP-like voltage in microvolts
+
+## animal_metadata.csv
+
+One row per animal.
+
+- `animal_id`: animal identifier
+- `treatment`: Control or Stimulated
+- `treatment_binary`: 0 for Control, 1 for Stimulated
+- `sampling_rate_hz`: sampling frequency in Hz
+
+There are 12 animals, 8 trials per animal, 5 seconds per trial, sampled at 200 Hz.
